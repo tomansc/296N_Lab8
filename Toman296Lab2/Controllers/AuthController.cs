@@ -211,7 +211,7 @@ namespace Toman296Lab6.Controllers
             }
         }
 
-      //  [Authorize(Roles = "Admin, MegaAdmin")]
+       [Authorize(Roles = "Admin, MegaAdmin")]
         public ActionResult ManageUserRoles()
         {
             // prepopulate roles for the view dropdown

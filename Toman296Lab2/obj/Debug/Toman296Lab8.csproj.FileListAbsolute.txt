@@ -58,6 +58,6 @@ C:\Users\slewin\Documents\Visual Studio 2013\Projects\Toman296NLab7Final\Toman29
 C:\Users\slewin\Documents\Visual Studio 2013\Projects\Toman296NLab7Final\Toman296Lab2\bin\Microsoft.AspNet.Scaffolding.12.0.xml
 C:\Users\slewin\Documents\Visual Studio 2013\Projects\Toman296NLab7Final\Toman296Lab2\bin\EnvDTE.xml
 C:\Users\slewin\Documents\Visual Studio 2013\Projects\Toman296NLab7Final\Toman296Lab2\bin\EnvDTE80.xml
-C:\Users\slewin\Documents\Visual Studio 2013\Projects\Toman296NLab7Final\Toman296Lab2\obj\Debug\Toman296Lab8.csprojResolveAssemblyReference.cache
 C:\Users\slewin\Documents\Visual Studio 2013\Projects\Toman296NLab7Final\Toman296Lab2\obj\Debug\Toman296Lab6.dll
 C:\Users\slewin\Documents\Visual Studio 2013\Projects\Toman296NLab7Final\Toman296Lab2\obj\Debug\Toman296Lab6.pdb
+C:\Users\slewin\Documents\Visual Studio 2013\Projects\Toman296NLab7Final\Toman296Lab2\obj\Debug\Toman296Lab8.csprojResolveAssemblyReference.cache

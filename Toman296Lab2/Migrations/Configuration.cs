@@ -68,12 +68,13 @@ namespace Toman296Lab6.Migrations
             });
 
             SaveChanges(context);
-            manager.AddToRole(user.Id, "Admin, MegaAdmin, User");
-            //SaveChanges(context); // Needed? 
+            manager.AddToRole(user.Id, "Admin");
+            manager.AddToRole(user.Id, "MegaAdmin");
+            manager.AddToRole(user.Id, "User");
             // http://stackoverflow.com/questions/24389126/mvc5-usermanager-addtorole-error-adding-user-to-role-userid-not-found
         }
 
-        private static void SaveChanges(DbContext context) // Thanks to Brody for finding this.
+        private static void SaveChanges(DbContext context) // Thanks to Brody for finding a link providing this.
         {
             try
             {

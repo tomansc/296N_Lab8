@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using System;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using Toman296Lab6.Models;
 
@@ -13,8 +13,10 @@ namespace Toman296Lab2.Controllers
     public class ForumViewController : Controller
     {
         private Toman296Lab2Context db = new Toman296Lab2Context();
+        UserManager<Member> userManager = new UserManager<Member>(new UserStore<Member>(new Toman296Lab2Context()));
 
         // GET: ForumView
+       
         [Authorize(Roles = "Admin, MegaAdmin, User")]
         public ActionResult Index() 
         {
